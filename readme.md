@@ -1,7 +1,11 @@
 # Kubernetes Basic
 
-## Nod
+## Node
 
-- view all node
+view all node
 
-> kubectl get nod
+> kubectl get node
+
+view detail node
+
+> kubectl describe node nodename
