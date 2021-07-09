@@ -42,6 +42,21 @@ accessing pod
 
 > kubectl port-forward podname accessPord:portPod
 
+delete pod
+
+```
+kubectl delete pod podname
+kubectl delete pod podname1 podname2 podname3
+```
+
+delete pod by label
+
+> kubectl delete pod -l key=value
+
+delete all pod in namespace
+
+> kubectl delete pod --all --namespace namespace
+
 ## Label
 
 create label
