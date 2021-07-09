@@ -21,6 +21,9 @@ view detail pod
 > kubectl describe pod podname
 
 create pod
-`to create pod you will use the yml file that has been in this repo`
+
+```
+to create pod you will use the yml file that has been in this repo
+```
 
 > kubectl create -f filename.yml
